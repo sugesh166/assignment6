@@ -1,0 +1,29 @@
+/* Custom Styles */
+body {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+#projects .card {
+  transition: transform 0.3s ease;
+  display: flex;
+  background-color: rgb(107, 172, 145);
+  border: 10px solid;
+}
+
+#projects .card:hover {
+  transform: translateY(-10px);
+}
+#about{
+    display: flex;
+    background-color:rgb(177, 67, 67) ;
+    border: 10px solid;
+}
+#contact{
+    display: flex;
+    background-color: blueviolet;
+    border: 10px solid;
+}
